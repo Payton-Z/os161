@@ -1,0 +1,10 @@
+#!/bin/bash
+sys161 kernel "p uw-testbin/vm-data1"
+sys161 kernel "p uw-testbin/vm-data3"
+sys161 kernel "p uw-testbin/romemwrite"
+sys161 kernel "p uw-testbin/vm-crash2"
+sys161 kernel "p testbin/sort"
+sys161 kernel "p testbin/matmult"
+sys161 kernel "p uw-testbin/vm-data1"
+sys161 kernel "p uw-testbin/widefork"
+sys161 kernel "p uw-testbin/hogparty;q"
